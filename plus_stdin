@@ -8,8 +8,19 @@ def tonum(s):
     except ValueError:
         return float(s)
 
+<<<<<<< HEAD
 x = 0
 for line in sys.stdin:
      x += tonum(line.rstrip())
 
 print(x)
+=======
+
+x = 0
+for line in sys.stdin:
+    x += tonum(line.rstrip())
+
+print(x)
+
+
+>>>>>>> aa66751 (change plus_sudin)
