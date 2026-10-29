@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText:2026 Akito Yamada
 import sys
 
 
@@ -14,4 +15,3 @@ for line in sys.stdin:
     x += tonum(line.rstrip())
 
 print(x)
-
